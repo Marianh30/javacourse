@@ -84,7 +84,7 @@ public class LanguageBasics {
 
     public String returnCorrectlyNamedVariable_2() {
         String score_board = "A";
-        String ScoreBoard = "B";
+        String ScoreBoard =  "B";
         String score_Board = "C";
         String scoreBoard = "D";
 
