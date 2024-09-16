@@ -10,7 +10,13 @@ public class LanguageBasics {
      * @return multiple
      */
     public boolean isMultiple(int x, int y) {
+        if (x % y == 0)
+
+
+
         return true;
+        else
+        return false;
     }
 
     /**
@@ -22,7 +28,11 @@ public class LanguageBasics {
      * @return
      */
     public double getDistanceInMeters(double speedInKmPerHour, double elapsedTimeInMinutes) {
-        return 0;
+
+        double minuter = elapsedTimeInMinutes / 60;
+        double distanceInMeters = (speedInKmPerHour * minuter)*1000;
+
+        return distanceInMeters;
     }
 
     /**
@@ -34,14 +44,14 @@ public class LanguageBasics {
      * @return cumulative sum
      */
     public int getCumulativeSum(int n) {
+        int cumsum = 0;
         //WHAT VALUE DOES i NEED TO HAVE AT THE START?
         //for sure not Integer.MAX_VALUE
-        for (int i = Integer.MAX_VALUE; i < n; i++) {
-            //YOUR CODE HERE
-
+        for (int i = 0 ; i <= n; i++) {
+            cumsum += i;
         }
-        return 0;
-    }
+        return cumsum;
+    };
 
     /**
      * This method should return "number" to the power of "powerUp", where the absolute value (the - sign is removed if
@@ -51,8 +61,9 @@ public class LanguageBasics {
      * @return number^absolute(powerUp)
      */
     public double getTheAbsolutePower(int number, int powerUp) {
-        //YOUR CODE HERE
-        return 0;
+
+        double poweredup = Math.pow(number, powerUp);
+        return poweredup;
     }
 
     /**
@@ -68,7 +79,7 @@ public class LanguageBasics {
         String Name_Of_King = "Franz II";
 
         //return the correct variable
-        return null;
+        return nameOfKing;
     }
 
     public String returnCorrectlyNamedVariable_2() {
@@ -78,7 +89,8 @@ public class LanguageBasics {
         String scoreBoard = "D";
 
         //return the correct variable
-        return null;
+        return scoreBoard
+                ;
     }
 
     public String returnCorrectlyNamedVariable_3() {
@@ -88,7 +100,7 @@ public class LanguageBasics {
         String DNA_translator = "D";
 
         //return the correct variable
-        return null;
+        return dnaTranslator;
     }
 
 }

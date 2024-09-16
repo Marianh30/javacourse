@@ -32,7 +32,7 @@ public class Datatypes {
     String correctDataType1() {
         //USAGE: the age of the universe in whole years. Change the return value -null- to a correct value
         //- the name of the data type that is correct here
-        return null;
+        return "long";
     }
 
     String correctDataType2() {

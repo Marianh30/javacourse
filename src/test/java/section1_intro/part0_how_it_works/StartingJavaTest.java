@@ -32,7 +32,7 @@ public class StartingJavaTest {
         startingJava.printHelloWorld();
         String printedResult = outContent.toString();
         sysOut.print(printedResult);
-        assertEquals("Hello, World", printedResult);
+        assertEquals("Bye, Moon", printedResult);
         System.setOut(sysOut);
     }
 
@@ -103,5 +103,6 @@ public class StartingJavaTest {
 
         assertEquals(2, duck.swimSpeed);
         assertEquals(name, duck.name);
+
     }
 }

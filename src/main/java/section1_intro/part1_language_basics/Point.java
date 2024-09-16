@@ -12,9 +12,17 @@ public class Point {
      * and when the current point is at (2, -5) it will return Point(-2, 5).
      * @return inverse Point
      */
-    Point createInversePoint() {
+    Point createInversePoint(int x, int y) {
+
+
+
         return null;
     }
+
+
+
+
+
 
     /**
      * This method returns the Euclidean distance of the current point (this) to the given point (otherPoint).

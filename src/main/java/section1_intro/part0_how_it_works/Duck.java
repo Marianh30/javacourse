@@ -9,4 +9,9 @@ package section1_intro.part0_how_it_works;
 public class Duck {
     public int swimSpeed;
     public String name;
+
+    public Duck(int swimSpeed, String name) {
+        this.swimSpeed = swimSpeed;
+        this.name = name;
+    }
 }
