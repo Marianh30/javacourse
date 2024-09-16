@@ -76,7 +76,7 @@ public class LanguageBasics {
         String NameOfKing = "Willem Alexander";
         String name_of_king = "George IV";
         String nameOfKing = "Louis XIV, le Roi Soleil";
-        String Name_Of_King = "Franz II" ;
+        String Name_Of_King = "Franz II " ;
 
         //return the correct variable
         return nameOfKing;
