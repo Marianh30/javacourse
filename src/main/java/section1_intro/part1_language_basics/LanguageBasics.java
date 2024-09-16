@@ -62,7 +62,7 @@ public class LanguageBasics {
      */
     public double getTheAbsolutePower(int number, int powerUp) {
 
-        double poweredup =  Math.pow(number, powerUp);
+        double poweredup = Math.pow(number, powerUp);
         return poweredup;
     }
 
